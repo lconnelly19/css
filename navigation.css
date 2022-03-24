@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a[tabindex].selected {
+    color: var(--primary-color);
+    outline: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    color: var(--paragraph-text-color);
+    background-color: white;
+    
+    border-right-width: var(--border-width);
+    border-right-style: var(--border-style);
+    border-right-color: var(--border-color);
+
+    height: 100%;
+
+}
+
+li{
+    padding-top: 0.75rem;
+    padding-bottom: .75rem;
+    padding-left: .95rem;
+
+    background-color: rgb(0, 0, 0, .0); 
+
+    border-radius: 0.313rem;
+
+}
+
+li:hover{
+    background-color: rgb(0, 0, 0, .1); 
+    transition: background-color 200ms;
+}
+
+img {
+    height: 1.7rem;
+    margin-bottom: 0.125rem;
+    margin-right: 0.188rem;
+
+}
